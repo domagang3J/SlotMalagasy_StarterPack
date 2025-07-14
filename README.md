@@ -1,3 +1,4 @@
+HEAD
 \# Slot Malagasy™ — Starter Pack IA Culturelle
 
 
@@ -48,3 +49,7 @@ Lance `demo\_galactique.py` pour une présentation immersive VIP :
 
 
 
+=======
+# SlotMalagasy_StarterPack
+Application IA culturelle malagasy avec NFT, boutique, console VIP et version mobile
+a65d8f300f8aaa527f456d5b47e4633ea35177a3
