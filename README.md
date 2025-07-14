@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner_slotmalagasy.png" alt="Slot Malagasy™ IA Banner" width="100%">
+</p>
+
 HEAD
 \# Slot Malagasy™ — Starter Pack IA Culturelle
 
@@ -53,3 +57,5 @@ Lance `demo\_galactique.py` pour une présentation immersive VIP :
 # SlotMalagasy_StarterPack
 Application IA culturelle malagasy avec NFT, boutique, console VIP et version mobile
 a65d8f300f8aaa527f456d5b47e4633ea35177a3
+[![Démo en ligne](https://img.shields.io/badge/Streamlit-Démo%20Galactique-brightgreen?style=for-the-badge&logo=streamlit)](https://slotmalagasy.streamlit.app)
+notepad README.md

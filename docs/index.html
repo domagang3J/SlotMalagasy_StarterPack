@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Malagasy™ — IA Culturelle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      background: linear-gradient(135deg, #000428, #004e92);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+    }
+    .logo {
+      animation: pulse 2.5s infinite;
+      width: 200px;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: 1.4em;
+      color: #a0e3ff;
+    }
+    .modules {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px;
+    }
+    .module {
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    .module:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+      background: rgba(255,255,255,0.15);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00c9ff;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo_slotmalagasy.svg" class="logo" alt="Slot Malagasy™ Logo">
+    <h1>Slot Malagasy™</h1>
+    <h2>L’IA Culturelle Malagasy</h2>
+  </header>
+
+  <section class="modules">
+    <div class="module">
+      <h3>🎨 NFT Galactiques</h3>
+      <p>Explore les NFT générés en temps réel avec imagerie stylisée.</p>
+      <a class="button" href="https://slotmalagasy.streamlit.app/gallery" target="_blank">Accéder</a>
+    </div>
+    <div class="module">
+      <h3>🛍️ Boutique IA</h3>
+      <p>Panier visuel, simulateur MVola/Orange et objets culturels IA.</p>
+      <a class="button" href="https://slotmalagasy.streamlit.app/boutique" target="_blank">Voir</a>
+    </div>
+    <div class="module">
+      <h3>🎛️ Console Admin VIP</h3>
+      <p>Gère les NFT, VIP connectés et cycles IA simulés.</p>
+      <a class="button" href="https://slotmalagasy.streamlit.app/admin" target="_blank">Piloter</a>
+    </div>
+    <div class="module">
+      <h3>🎬 Démo Galactique</h3>
+      <p>Présentation immersive pour investisseurs avec IA culturelle.</p>
+      <a class="button" href="https://slotmalagasy.streamlit.app/demo" target="_blank">Lancer</a>
+    </div>
+    <div class="module">
+      <h3>☁️ Supabase</h3>
+      <p>Synchronisation temps réel des NFT et profils VIP IA.</p>
+      <a class="button" href="https://supabase.com" target="_blank">Supabase</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 — Slot Malagasy™ • IA malagasy • Propulsée par Streamlit + Supabase
+  </footer>
+
+</body>
+</html>
